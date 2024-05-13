@@ -1,0 +1,77 @@
+.header-container-wrapper {
+    color: var(--white-color);
+    display: flex;
+    margin: 0;
+    padding: var(--padding-page-properties);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 0 16px 0;
+}
+
+.header-container nav{
+    width: 529px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-container nav a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-container section{
+    display: flex;
+    justify-content: space-between;
+    width: 199px;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-container section button:first-child{
+    background: none;
+    color: var(--white-color);
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px ;
+    transition: 0.2s ease-in-out;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-container section button:first-child:hover{
+    background: var(--primary-color-hovered);
+    color: var(--white-color);
+}
+
+.sign-up-button{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px ;
+    transition: 0.2s ease-in-out;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-container section button:last-child:hover{
+    background: var(--primary-color-hovered);
+    color: var(--white-color);
+}
+

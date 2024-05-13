@@ -1,0 +1,25 @@
+.posibilities-container-wrapper{
+    background: var(--quaternary-color);
+    display: flex;
+    padding: var(--padding-page-properties);
+margin: 64px 0 0 0;
+}
+
+.posibilities-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.posibilities-container h4{
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white-color);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
