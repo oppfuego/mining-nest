@@ -31,7 +31,7 @@ const PriceListContainer:FC<PriceListContainerProps> = ({title}) => {
                     <ProductContainer
                         image={Product2} features="Hosting Package" imageTitle="Hosting Package for Server 500-1000W"
                         price="$120.00 - $1500.00" discountPrice="20% VAT applicable on UK based orders"/>
-
+{/*fdbfsbsfb*/}
                     <ProductContainer
                         image={Product3} features="Hosting Package" imageTitle="Hosting Package for Server 500-1000W"
                         price="$120.00 - $1500.00" discountPrice="20% VAT applicable on UK based orders"/>
