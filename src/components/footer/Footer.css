@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+}
+
+.footer-container-wrapper {
+    display: flex;
+    padding: 0 128px 0 128px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quaternary-color);
+    height: 476px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-upper-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    justify-items: start;
+    width: 100%;
+    margin: 64px 0 20px 0;
+}
+
+.footer-presentation p {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white-color);
+}
+
+.footer-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 631px;
+}
+
+.footer-links-container section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 204px;
+}
+
+.footer-links-container section h3 {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--white-color);
+}
+
+.footer-links-container section a {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white-color);
+}
+
+hr {
+    width: 100%;
+    color: var(--white-color);
+}
+
+.footer-lower-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+
+.footer-lower-container section:first-child {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-lower-container section:last-child {
+    display: flex;
+    justify-content: space-between;
+    width: 172px;
+}
+
+.footer-lower-container section a {
+    text-decoration:  none;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--white-color);
+    transition: 0.2s ease-in-out;
+}
+
+.footer-lower-container section a:hover{
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: 0.2s ease-in-out;
+}

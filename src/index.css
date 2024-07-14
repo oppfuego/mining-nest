@@ -25,7 +25,7 @@ code {
     --quaternary-color: #171528;
     --quinary-color: #1FAD72;
     --gray-color: #FFFFFFCC;
-;
-;
+    --button-margin: 10px 0 0 0;
+    --background-benefits: #171528;
 ;
 }
