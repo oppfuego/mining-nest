@@ -1,0 +1,43 @@
+.main-possibilities-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: var(--padding-page-properties);
+    align-items: center;
+    height: 350px;
+}
+
+.main-possibilities-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Змінюємо на flex-start */
+    width: 100%;
+    background-color: var(--background-benefits);
+    color: var(--white-color);
+    height: 240px;
+    border-radius: 8px;
+    padding: 0 64px 0 64px;
+}
+
+.main-possibilities-container section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 282px;
+    margin: 0 30px;
+}
+
+.last-section{
+
+}
+
+.main-possibilities-container h1 {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.main-possibilities-container p {
+    font-size: 16px;
+    font-weight: 500;
+}

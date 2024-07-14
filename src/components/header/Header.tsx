@@ -2,6 +2,7 @@ import React from 'react';
 import "./Header.css";
 import {ReactComponent as Logo} from "../../assets/images/Logo.svg";
 import { MdOutlineShoppingBag } from "react-icons/md";
+import {Link} from "react-router-dom";
 
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
                 <Logo width="272"/>
                 <nav>
                     <a href="">Home</a>
-                    <a href="">Server Spaces</a>
+                    <Link to="/product-descriptions">Server Spaces</Link>
                     <a href="">Credit</a>
                     <a href="">About Us</a>
                     <a href="">Blogs</a>
